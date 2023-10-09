@@ -152,7 +152,7 @@
       (net 4 "GND") (pinfunction "4") (pintype "passive") (solder_mask_margin 0.102) (tstamp f4a632df-d32e-4c32-a49b-08a11b4c9315))
     (pad "5" thru_hole circle (at 0 -3.81 90) (size 3.306 3.306) (drill 2.29) (layers "*.Cu" "*.Mask")
       (net 4 "GND") (pinfunction "SH") (pintype "passive") (solder_mask_margin 0.102) (tstamp 8697398b-d712-4f2b-a7f1-57c27aa7c45e))
-    (pad "6" thru_hole circle locked (at 6.76 -3 90) (size 3.306 3.306) (drill 2.29) (layers "*.Cu" "*.Mask")
+    (pad "6" thru_hole circle (at 6.76 -3 90) (size 3.306 3.306) (drill 2.29) (layers "*.Cu" "*.Mask")
       (net 4 "GND") (pinfunction "SH") (pintype "passive") (solder_mask_margin 0.102) (tstamp 5c9e57e8-fc7c-4d13-a136-22b9f922d067))
     (pad "7" thru_hole circle (at -6.76 -3 90) (size 3.306 3.306) (drill 2.29) (layers "*.Cu" "*.Mask")
       (net 4 "GND") (pinfunction "SH") (pintype "passive") (solder_mask_margin 0.102) (tstamp 78a7a7c4-0de7-4b92-bab4-65383e5bb3fd))
