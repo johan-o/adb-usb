@@ -307,7 +307,7 @@
   (symbol (lib_id "ADB:5749181-1") (at 67.31 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a6ab56f3-8dd1-4597-b8fe-1c0fe249845f)
-    (property "Reference" "J1" (at 67.31 17.78 0)
+    (property "Reference" "ADB-FEM1" (at 67.31 17.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5749181-1" (at 67.31 20.32 0)
@@ -371,7 +371,7 @@
     (instances
       (project "aekii-m3501"
         (path "/10fa40d7-dfa7-4104-a535-2d62cfab9a1c"
-          (reference "J1") (unit 1)
+          (reference "ADB-FEM1") (unit 1)
         )
       )
     )
