@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ADB")(type "KiCad")(uri "${KIPRJMOD}/5749181-1")(options "")(descr ""))
+)
