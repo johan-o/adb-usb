@@ -199,6 +199,8 @@
   )
 
 
+  (no_connect (at 54.61 33.02) (uuid bc1e372c-587b-413b-b43c-cde0ff8096ea))
+
   (wire (pts (xy 29.21 33.02) (xy 31.75 33.02))
     (stroke (width 0) (type default))
     (uuid 2add48ed-51d3-4049-bbc9-b52bcc242bc0)
@@ -271,7 +273,7 @@
     (pin "3" (uuid a193c617-e536-454e-b395-e89406aec332))
     (pin "4" (uuid 67a9448a-27cf-4df2-983c-f5612dc324a0))
     (instances
-      (project "aekii-m3501"
+      (project "M0116"
         (path "/10fa40d7-dfa7-4104-a535-2d62cfab9a1c"
           (reference "J2") (unit 1)
         )
@@ -296,7 +298,7 @@
     )
     (pin "1" (uuid a0ef6f05-022f-46e0-803c-72abf5079934))
     (instances
-      (project "aekii-m3501"
+      (project "M0116"
         (path "/10fa40d7-dfa7-4104-a535-2d62cfab9a1c"
           (reference "#PWR03") (unit 1)
         )
@@ -369,7 +371,7 @@
     (pin "6" (uuid 32be88cb-fdc6-49e9-abae-a0c7b7daff1d))
     (pin "7" (uuid a54f3a58-7baa-47ea-8785-8d1a9e7659e1))
     (instances
-      (project "aekii-m3501"
+      (project "M0116"
         (path "/10fa40d7-dfa7-4104-a535-2d62cfab9a1c"
           (reference "ADB-FEM1") (unit 1)
         )
@@ -394,34 +396,9 @@
     )
     (pin "1" (uuid d4a8d6b2-a1d2-4350-bbfb-d2f14ecf8d2c))
     (instances
-      (project "aekii-m3501"
+      (project "M0116"
         (path "/10fa40d7-dfa7-4104-a535-2d62cfab9a1c"
           (reference "#PWR01") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 54.61 33.02 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b9070509-0122-4f0f-a07f-47c97f2fc90f)
-    (property "Reference" "#PWR02" (at 54.61 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 54.61 38.1 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 54.61 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 54.61 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid db23dd38-7327-463c-bbbf-6de65e2e68dd))
-    (instances
-      (project "aekii-m3501"
-        (path "/10fa40d7-dfa7-4104-a535-2d62cfab9a1c"
-          (reference "#PWR02") (unit 1)
         )
       )
     )

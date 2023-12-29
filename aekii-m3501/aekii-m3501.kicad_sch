@@ -199,6 +199,8 @@
   )
 
 
+  (no_connect (at 54.61 33.02) (uuid cf9a1205-1695-4923-8e95-90aa7dd19ed2))
+
   (wire (pts (xy 29.21 33.02) (xy 31.75 33.02))
     (stroke (width 0) (type default))
     (uuid 2add48ed-51d3-4049-bbc9-b52bcc242bc0)
@@ -397,31 +399,6 @@
       (project "aekii-m3501"
         (path "/10fa40d7-dfa7-4104-a535-2d62cfab9a1c"
           (reference "#PWR01") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 54.61 33.02 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b9070509-0122-4f0f-a07f-47c97f2fc90f)
-    (property "Reference" "#PWR02" (at 54.61 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 54.61 38.1 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 54.61 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 54.61 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid db23dd38-7327-463c-bbbf-6de65e2e68dd))
-    (instances
-      (project "aekii-m3501"
-        (path "/10fa40d7-dfa7-4104-a535-2d62cfab9a1c"
-          (reference "#PWR02") (unit 1)
         )
       )
     )
